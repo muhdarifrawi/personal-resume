@@ -51,11 +51,49 @@ body{
     width:345px;
 }
 
-/* a.no-link{
-    color:gray;
+#project-card-2{
+    width:345px;
+    background-color:gainsboro;
 }
 
+#bootcamp-projects{
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
 
-a.no-link:hover{
-    color:gray;
-} */
+#footer{
+    background-color:black;
+    height:50%;
+}
+
+#footer-box{
+    height:100%;
+}
+
+#insta, #linkedin, #twitter{
+    height:80px;
+    background-color:white;
+    border-radius:10px;
+    margin:20px;
+}
+
+#copyright{
+    color:white;
+    font-size:15px;
+    text-align: center;
+}
+
+#cr-link{
+    color:white;
+    padding:1px;
+    transition-duration:1s;
+}
+
+#cr-link:hover {
+    color:black;
+    background-color:white;
+    transition-duration:1s;
+    text-decoration:none;
+}
