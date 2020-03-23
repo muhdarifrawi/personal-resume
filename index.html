@@ -15,7 +15,7 @@
   <body>
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"><strong>This.Is.Me</strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -30,16 +30,43 @@
       </nav>
       <div class="container my-5" >
         <div class="row" id="hero">
-        <div class="card">
-            <img src="images/personal-pic-aisyah.jpg" class="card-img" alt="Responsive image">
+        <div class="card" id="hero-image">
+            <img src="images/personal-pic-aisyah.jpg" class="card-img" alt="Photo of him walking in a corridor with hanging plants.">
         </div>
-        <div class="col mx-3" id="hero-para">
+        <div class="col mx-3 my-3" id="hero-para">
             <h2>MUHAMMAD ARIF BIN RAWI</h2>
             <p>Junior Software Developer</p>
         </div>
       </div>
     </div>
-    <div class="container">
+
+    <div class="container-fluid py-4" id="personal-projects">
+    <h1 class="mx-3 pb-3">Personal Projects</h1>
+    <div class="row pb-3" id="p-projects-layout">
+    <div class="col-sm" id="p-project-image">
+        <img src="images/image1.jpg" class="card-img " alt="image of a work table">
+        
+    
+    </div>
+    <div class="col-sm">
+        <p class="m-3"> 
+            I did my best to code during the time I had to myself. Here are some projects.
+        </p>
+    </div>
+    </div>
+
+    <div class="card" id="project-card">
+      <div class="card-body">
+        <h2 class="card-title">Data Visualisation</h2>
+        <h6 class="card-subtitle mb-2 text-muted">Private Project</h6>
+        <p class="card-text">
+          Using a mix of Jupyter Notebook, Pandas and Plotly to visualise data. 
+        </p>
+        <a href="#"class="btn btn-dark disabled">Github</a>
+        <a href="#" class="btn btn-dark disabled">Demo</a>
+      </div>
+    </div>
+    
     </div>
 
     <!-- Optional JavaScript -->

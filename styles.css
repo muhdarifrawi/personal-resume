@@ -1,9 +1,11 @@
 html{
     height:100%;
+    width:100%;
 }
 
 body{
     height:100%;
+    width:100%;
 }
 
 .jumbotron{
@@ -11,8 +13,11 @@ body{
 }
 
 .card{
-    width:350px;
     border:0;
+}
+
+#hero-image{
+    width:350px;
 }
 
 #hero{
@@ -25,3 +30,32 @@ body{
     flex-direction:column;
     justify-content: center;
 }
+
+#personal-projects{
+    background-color:gainsboro;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+#p-project-image{
+    width:310px;
+}
+
+#p-projects-layout{
+    display:flex;
+    justify-content: center;
+}
+
+#project-card{
+    width:345px;
+}
+
+/* a.no-link{
+    color:gray;
+}
+
+
+a.no-link:hover{
+    color:gray;
+} */
