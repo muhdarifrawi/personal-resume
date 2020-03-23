@@ -12,6 +12,12 @@ body{
 
 .card{
     width:350px;
+    border:0;
+}
+
+#hero{
+    display:flex;
+    justify-content: center;
 }
 
 #hero-para{
