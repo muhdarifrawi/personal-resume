@@ -9,3 +9,13 @@ body{
 .jumbotron{
     height:100%;
 }
+
+.card{
+    width:350px;
+}
+
+#hero-para{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
