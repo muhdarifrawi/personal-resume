@@ -33,7 +33,7 @@ body{
 }
 
 #personal-projects{
-    background-color:gainsboro;
+    background-color:white;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -50,15 +50,16 @@ body{
 
 #project-card{
     width:345px;
+    background-color:gainsboro;
 }
 
 #project-card-2{
     width:345px;
-    background-color:gainsboro;
+    /* background-color:gainsboro; */
 }
 
 #bootcamp-projects{
-    background-color:white;
+    background-color:gainsboro;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -97,4 +98,8 @@ body{
     background-color:white;
     transition-duration:1s;
     text-decoration:none;
+}
+
+#skills{
+    background-color:gainsboro;
 }
