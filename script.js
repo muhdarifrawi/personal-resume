@@ -1,3 +1,5 @@
+$("#langCollapse").collapse('show');
+
 function toggleFunction(name){
     // $("#langCollapse").collapse('toggle');
     $(".collapse").collapse("hide");
