@@ -48,11 +48,10 @@
     <h1 class="mx-3 pb-3">Skills</h1>
 
     <div class="row d-flex justify-content-center">
-      <button class="btn btn-dark m-1" type="button" onClick="toggleFunction()">
+      <button class="btn btn-dark m-1" type="button" onClick="toggleFunction(this.name)" name="langCollapse">
         Languages
       </button>
-      <button class="btn btn-dark m-1 " type="button" data-toggle="collapse" data-target="#fwCollapse"
-        aria-expanded="false" aria-controls="fwCollapse">
+      <button class="btn btn-dark m-1 " type="button"  onClick="toggleFunction(this.name)" name="fwCollapse">
         Frameworks
       </button>
       <button class="btn btn-dark m-1" type="button" data-toggle="collapse" data-target="#dbCollapse"
