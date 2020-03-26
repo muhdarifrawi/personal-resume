@@ -19,9 +19,7 @@ function toggleFunction(name){
 
 function openSelected(name){
     btnSelection = "button" + "[name=" + name + "]";
-    console.log(btnSelection);
     $(btnSelection).addClass("btn btn-dark m-1");
     selection = "#" + name;
-    console.log(selection);
     $(selection).collapse("toggle");
 }
