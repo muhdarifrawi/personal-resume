@@ -4,8 +4,8 @@ $("button[name='langCollapse']").addClass("btn btn-dark m-1");
 
 
 function changeBtnColor(){
-    $("button").removeClass("btn btn-dark m-1");
-    $("button").addClass("btn btn-light m-1");
+    $(".infoCollapse").removeClass("btn btn-dark m-1");
+    $(".infoCollapse").addClass("btn btn-light m-1");
 }
 
 
