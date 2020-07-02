@@ -103,3 +103,28 @@ body{
 #skills{
     background-color:gainsboro;
 }
+
+#experience{
+    height:100%;
+}
+
+.box{
+    height:50px;
+    width:50px;
+    margin:20px 0px 20px 200px;
+    border-radius:50%;
+    border: 2px solid red;
+}
+
+.box:hover{
+    background-color:red;
+}
+
+.exp-align{
+    align-self:center;
+}
+
+.exp-line{
+    border-right:2px solid black;
+    height:230px;
+}
