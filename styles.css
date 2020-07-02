@@ -128,3 +128,11 @@ body{
     border-right:2px solid black;
     height:230px;
 }
+
+.private-project{
+    color:red;
+}
+
+.public-project{
+    color:green;
+}
