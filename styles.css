@@ -103,3 +103,11 @@ body{
 #skills{
     background-color:gainsboro;
 }
+
+.private-project{
+    color:red;
+}
+
+.public-project{
+    color:green;
+}
