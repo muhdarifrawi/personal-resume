@@ -48,12 +48,12 @@ body{
     justify-content: center;
 }
 
-#project-card{
+.project-card{
     width:345px;
     background-color:gainsboro;
 }
 
-#project-card-2{
+.project-card-2{
     width:345px;
     /* background-color:gainsboro; */
 }
